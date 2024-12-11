@@ -1,0 +1,31 @@
+{
+  "name": "users-demo",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^13.3.0",
+    "@angular/core": "^13.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/users-demo.mjs",
+  "es2020": "fesm2020/users-demo.mjs",
+  "esm2020": "esm2020/users-demo.mjs",
+  "fesm2020": "fesm2020/users-demo.mjs",
+  "fesm2015": "fesm2015/users-demo.mjs",
+  "typings": "users-demo.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./users-demo.d.ts",
+      "esm2020": "./esm2020/users-demo.mjs",
+      "es2020": "./fesm2020/users-demo.mjs",
+      "es2015": "./fesm2015/users-demo.mjs",
+      "node": "./fesm2015/users-demo.mjs",
+      "default": "./fesm2020/users-demo.mjs"
+    }
+  },
+  "sideEffects": false
+}
